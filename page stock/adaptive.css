@@ -1,0 +1,171 @@
+@media (max-width:1200px)
+{
+    .link{
+        font-size: 14px;
+    }
+    
+    .about__img{
+        width: 100%;
+        height: 435px;
+    }
+    
+    .about__content{
+        width: 100%;
+        max-height: 435px;
+    }   
+}
+
+@media (max-width:1024px)
+{
+    .logo{
+        font-size: 32px;
+    }
+    
+    .link{
+        font-size: 12px;
+    }  
+}
+
+@media (max-width:950px)
+{
+    .navigation{
+        display: none;
+    }
+
+
+    .header__inner{
+        padding: 22px 14px 22px 14px;
+    }
+
+    .header__search{
+        width: calc(100%*2/3);
+    }
+}
+
+@media (max-width:744px)
+{
+    .header__search{
+        width: calc(100%/3);
+    }
+    
+    .logo{
+        padding-left: 20px;
+    }
+    
+    .burger-button{
+        display: initial;
+    }
+    
+    .footer__nav{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .link{
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .footer__location{
+        margin-right: 0;
+        padding-bottom: 14px;
+        font-size: 15px;
+    }
+
+    .footer__phone{
+        font-size: 15px;
+    }
+
+    .footer__social{
+        padding-right: 80px;
+    }
+
+    .instagram-image{
+        margin-left: auto;
+    }
+}
+
+@media(max-width: 700px)
+{
+    .header__field{
+        display: none;
+    }
+
+    .catalogue__title{
+        left: 14px;
+    }
+
+    .card{
+        width: calc((100%-15px) / 3);
+    }
+}
+
+@media(max-width: 550px)
+{
+    .navigation-page{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .navigation-page__path{
+        display: none;
+    }
+
+    .quote__inner{
+        height: 162px;
+    }
+
+    .quote__content{
+        padding-left: 14px;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    .subtitle{
+        max-width: 450px;
+        font-size: 15px;
+    }
+    
+    .card{
+        width: calc((100%-15px) / 2);
+    }
+}
+
+@media(max-width: 428px)
+{
+    .header__inner{
+        padding:22px 0px 22px 0px;
+    }
+    
+    .logo{
+        display: none;
+    }
+
+    .catalogue__info{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .catalogue__title{
+        position: initial;
+        margin-left: 14px;
+        padding-bottom: 10px;
+    }
+
+    .catalogue__control
+    {
+        margin-left: 14px;
+    }
+
+    .footer__social{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .instagram-image{
+        margin-left: 0;
+    }
+}
